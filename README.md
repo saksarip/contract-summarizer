@@ -8,9 +8,9 @@ First step is to run `npm i` while in the base directory to install the relevant
 
 ## Setting environmental variable
 
-Set your REACT_APP_OPENAI_API_KEY in a .env file at the base directory of the project
+Set your REACT_APP_OPENAI_API_KEY in a .env file at the base directory of the project.
 Example:  
- `REACT_APP_OPENAI_API_KEY=a123892nskdakds29323829324324290`
+`REACT_APP_OPENAI_API_KEY=a123892nskdakds29323829324324290`
 
 ### Running the project
 
