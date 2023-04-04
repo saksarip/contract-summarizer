@@ -29,6 +29,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Setting environmental variable
+
+Set your REACT_APP_OPENAI_API_KEY in a .env file at the base directors of the project
+ex. `REACT_APP_OPENAI_API_KEY=a123892nskdakds29323829324324290`
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
