@@ -26,7 +26,7 @@ function App() {
         messages: [
           {
             role: "user",
-            content: `Summarize the following contract in 2 or more paragr: ${text}`,
+            content: `Summarize the following contract in 2 or more paragraphs: ${text}`,
           },
         ],
       });
@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <VStack align="center" spacing={7}>
+    <VStack align="center" spacing={8}>
       <Heading as="h1" size="2xl" marginTop={10}>
         Contract Summarizer
       </Heading>
