@@ -4,7 +4,9 @@ This is a basic prototype for a contract summarizer built on top of ChatGPT's te
 
 ## Getting the project to run
 
-First step is to run `npm i` while in the base directory to install the relevant packages
+The first step is to clone the repo. Run git clone https://github.com/saksarip/contract-summarizer.git, and cd into the contract-summarizer directory.
+
+Second step is to run `npm i` while in the base directory to install the relevant packages
 
 ## Setting environmental variable
 
