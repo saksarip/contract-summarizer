@@ -41,6 +41,7 @@ function App() {
         ],
       });
 
+      setLoading(false);
       setSummaryLines([
         ...summaryLines,
         `Q: ${followUpQuestion}`,
@@ -49,7 +50,6 @@ function App() {
     } catch (error) {
       console.error("Error:", error);
     }
-    setLoading(false);
   };
 
   const summarize = async () => {
